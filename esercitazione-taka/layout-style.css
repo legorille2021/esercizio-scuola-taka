@@ -1,0 +1,112 @@
+/* NAV */
+
+#registrati {    /* BOTTONE  */
+    color: white;
+    background: #36D1DC; 
+    background: -webkit-linear-gradient(to right #36D1DC, #5B86E5);  /* per versioni di Safari e Chrome */
+    background: linear-gradient(to right, #36D1DC, #5B86E5);  /* SFUMATURA ! */ 
+    border: none;
+    border-radius: 0.2rem;
+}
+.navigazione{
+    box-shadow: 4px 2px 5px #aaaaaa;
+}
+
+
+/* HEADER */
+.backgroundimg {
+    background-image: url('assets/img/banner.jpg'); 
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    padding-top: 10rem;
+    padding-left: 5rem;
+}
+
+.perchè, .contatti, .weare {
+    padding:2rem;
+}
+
+.chi {
+    padding-top: 6rem ;
+    padding-left: 6rem;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/* BOTTONI */
+.info, .scrivici, #scrivici #button-addon2 {
+    padding: 0.5rem;
+    background: #36D1DC; 
+    background: -webkit-linear-gradient(to right #36D1DC, #5B86E5); 
+    background: linear-gradient(to right, #36D1DC, #5B86E5); 
+    color: white; 
+    border: none;
+    border-radius: 0.2rem;
+}
+
+section h3 {
+    color: white;
+}
+
+.Machi {
+    background-color: #0C0633; 
+    color: white; 
+    text-align: center;
+    padding: 3rem; 
+}
+
+.prezzo1{
+    background-color: cornflowerblue;
+    width: 13rem;
+    height: 13rem;
+    transform: skewX(-7deg);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.prezzo2 {
+        background-color:tomato;
+        width: 13rem;
+        height: 13rem;
+        transform: skewX(-7deg);
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+.prezzo3 {
+    background-color:khaki;
+    width: 13rem;
+    height: 13rem;
+    transform: skewX(-7deg);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.lista, .lista2, .lista3 {
+    background-color: darkgray;
+    text-align: left;
+    width:13rem;
+    height: 23rem;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+
+}
+
+#iscriviti {
+    margin-top: 10rem;
+}
